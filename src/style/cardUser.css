@@ -1,0 +1,94 @@
+.containerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 2px 1px #00000a30;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+.Container{
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.userCard{
+    background: #142549;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    padding: 20px 40px 20px 20px; 
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -3px 3px 5px 2px #14254950;
+    animation: entrada .7s ease;
+}
+
+.userCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+}
+
+.userCard h3{
+    color: #f2f2f2;
+}
+
+.contentTxt{
+    color: #f2f2f2;
+}
+
+
+.usuariosGuardados h2{
+    text-align: center;
+}
+
+.containerUserSave{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
